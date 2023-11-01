@@ -245,6 +245,12 @@ h6 {
   background-size: cover;
 }
 
+@media (max-width: 768px) {
+  #hero {
+    background-position: 600px top; /* 在小屏幕设备上调整背景图的位置 */
+  }
+}
+
 #hero:before {
   content: "";
   background: rgba(5, 13, 24, 0.3);
