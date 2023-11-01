@@ -243,11 +243,14 @@ h6 {
   height: 100vh;
   background: url("../img/hero-bg.jpg") top center;
   background-size: cover;
+  background-repeat: no-repeat;
 }
 
 @media (max-width: 768px) {
   #hero {
-    background-position: 600px top; /* 在小屏幕设备上调整背景图的位置 */
+    background: url("../img/hero-bg-small.jpg");
+    background-size: cover;
+    background-position: center center;  // 或其他你想要的位置
   }
 }
 
